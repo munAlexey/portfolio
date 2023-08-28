@@ -8,7 +8,7 @@
 
 .nav__list { 
   list-style-type: none;
-  background-color: rgba(196, 229, 31, 0.526);
+  background-color: #ecad3f;
   border-radius: 10px;
   margin-right: 10px;
 }
