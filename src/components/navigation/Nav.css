@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: absolute;
+
+}
+
+.nav__list { 
+  list-style-type: none;
+  background-color: rgba(196, 229, 31, 0.526);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.nav__item {
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.nav__img {
+  width: 30px;
+}
+
+.nav__img:hover {
+  transform: scale(1.1);
+  background-color: white;
+  border-radius: 10px;
+  outline: 5px solid white;
+}
