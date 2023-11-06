@@ -1,10 +1,14 @@
 import './Main.css';
+import Header from '../header/Header';
 
 function Main(props) {
   return (
-    <div className="container">
-     aasd
-    </div>
+    <>
+      <Header />
+      <div className="container">
+      
+      </div>
+    </>
   )
 }
 
