@@ -3,7 +3,7 @@ import Nav from '../navigation/Nav';
 
 function Header(props) {
   return (
-    <header className="container">
+    <header>
       <Nav />
     </header>
   )

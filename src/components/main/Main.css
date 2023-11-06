@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+}
+
+.main__img {
+  height: 80vh;
+}
+
+.main__block {
+  display: flex;
+  width: 100%;
+}
