@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -20,7 +20,11 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  background-color: #000000;
+  background-image: url('../../images/buildings-view-blur-lights-effect-sky-82-2880x1800.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 100vh;
   color: #fff;
+  font-family: 'Quicksand', sans-serif;
 }
