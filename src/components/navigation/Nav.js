@@ -7,32 +7,35 @@ import './Nav.css';
 import { Link } from 'react-router-dom';
 
 function Nav() {
+  const handleChange = () => {
+    
+  }
   return (
     <div className='nav'>
         <ul className='nav__list'>
           <li className='nav__item'>
             <Link to='/' className='nav__link'>
-              <img src={home} className='nav__img' alt='home-page'/>
+              <img src={home} className='nav__img' onClick={handleChange} alt='home-page'/>
             </Link>
             </li>
           <li className='nav__item'>
             <Link to='/aboutMe' className='nav__link'>
-              <img src={aboutMe} className='nav__img' alt='about-me-page'/>
+              <img src={aboutMe} className='nav__img' onClick={handleChange} alt='about-me-page'/>
             </Link>
             </li>
           <li className='nav__item'>
             <Link to='/hobby' className='nav__link'>
-              <img src={hobby} className='nav__img' alt='hobby-page'/>
+              <img src={hobby} className='nav__img' onClick={handleChange} alt='hobby-page'/>
             </Link>
             </li>
           <li className='nav__item'>
             <Link to='/portfolio' className='nav__link'>
-              <img src={portfolio} className='nav__img' alt='portfolio-page'/>
+              <img src={portfolio} className='nav__img' onClick={handleChange} alt='portfolio-page'/>
             </Link>
             </li>
           <li className='nav__item'>
             <Link to='/contact' className='nav__link'>
-              <img src={contact} className='nav__img' alt='contacts-page'/>
+              <img src={contact} className='nav__img' onClick={handleChange} alt='contacts-page'/>
             </Link>
           </li>
         </ul>

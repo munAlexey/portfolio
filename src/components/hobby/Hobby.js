@@ -1,10 +1,10 @@
-import "./Main.css";
+import "./Hobby.css";
 import Header from "../header/Header";
-import ya from "../../images/image 1 (2).png";
+import sf from "../../images/sf.png";
 import "../animation/Animation.css";
 import transition from "../../utils/transition";
 
-function Main(props) {
+function Hobby(props) {
   return (
     <div className="main container">
       <Header />
@@ -13,9 +13,9 @@ function Main(props) {
       <div className="decor-el-2"></div>
       <div className="decor-el-3"></div>
       <div className="decor-el-4"></div>
-      <div className="main__block">
+      <div className="hobby__block">
         <div className="main__img">
-          <img src={ya} alt="ma baby" width={300} />
+          <img src={sf} alt="ma baby" width={300} height={312}/>
         </div>
         <div className="main__text-block">
           <h2 className="main__title">
@@ -34,4 +34,4 @@ function Main(props) {
   );
 }
 
-export default transition(Main);
+export default transition(Hobby);

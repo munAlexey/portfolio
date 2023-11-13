@@ -1,0 +1,14 @@
+.hobby__block {
+  max-width: 1140px;
+  margin: 0 35px 0 5px;
+  width: 100%;
+  background-image: url('../../images/bg.jpeg');
+  display: flex;
+  position: relative;
+  box-shadow: 0px 0px 7px;
+  transform-origin: left;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  rotate: 5deg;
+} 

@@ -1,0 +1,20 @@
+@keyframes change {
+  0% {
+    rotate: -5deg;
+    top: -20px;
+    left: -5px;
+  }
+
+  50% {
+    rotate: -25deg;
+    top: -10px;
+    z-index: 10;
+  }
+
+  100% {
+    top: 0px;
+    rotate: -1deg;
+    left: 0px;
+    z-index: 10;
+  }
+}
